@@ -1,0 +1,53 @@
+// main: ../main.sass
+
+footer
+	padding: 40px 0
+	text-align: center
+	position: relative
+	&:before
+		content: ''
+		display: block
+		width: 506px
+		height: 1px
+		background: #c4c4c4
+		position: absolute
+		top: 0
+		left: 50%
+		transform: translateX(-50%)
+	.footer__title
+		font-size: 24px
+		line-height: 30px
+		font-weight: 700
+		margin-bottom: 20px
+		color: $black
+	.footer__social
+		margin-bottom: 20px
+		ul li 
+			display: inline-block
+			a
+				display: block
+				position: relative
+				padding: 0 10px
+				color: $mainColor
+				text-decoration: underline
+				transition: all 100ms ease-in
+				&:after
+					content: '/'
+					position: absolute
+					right: -2.5px
+					top: 0
+					color: $grey
+				&:hover
+					color: $black
+			&:last-child a:after
+				display: none
+	span, small
+		display: block
+	span
+		color: $black
+	small
+		a
+			color: $mainColor
+			transition: all 100ms ease-in
+			&:hover
+				color: $black
