@@ -3,6 +3,7 @@
 		<div class="container">
 			<nuxt-link class="logo" to="/">imgermi.com</nuxt-link>
 			<nav>
+				<button class="menu__btn">Menu</button>
 				<ul>
 					<li><nuxt-link to="/work">Work</nuxt-link></li>
 					<li><nuxt-link to="/about">About</nuxt-link></li>

@@ -13,8 +13,112 @@
 	margin: auto
 	padding: 0 15px
 	@media(min-width: 768px)
+		max-width: 600px
+	@media(min-width: 991px)
+		max-width: 900px
+	@media(min-width: 1200px)
 		max-width: 1038px
 
 .hero
-	padding: 100px 0
+	padding: 100px 0 50px
 	text-align: center
+
+.band
+	padding: 50px 0
+	&.left
+		.band__text
+			padding-right: 80px
+			@media(max-width: 991px)
+				padding-right: 0
+	&.right
+		.band__text
+			padding-left: 80px
+			@media(max-width: 991px)
+				padding-left: 0
+	.container
+		display: flex
+
+.band__text
+	padding-top: 20px
+
+.band__text--intro 
+	font-weight: 400
+	color: $grey
+	font-size: 32px
+	line-height: 36px
+	position: relative
+	padding-bottom: 50px
+	&:after
+		content: ''
+		display: block
+		position: absolute
+		left: 0
+		bottom: 23.5px
+		width: 42.5px
+		height: 2px
+		background: $grey
+
+.band__text--title
+	font-weight: 700
+	font-size: 24px
+	line-height: 28px
+	color: $black
+	margin-bottom: 10px
+
+.band__text--p
+	margin-bottom: 15px
+
+
+.band.fucer
+	.container
+		@media(max-width: 991px)
+			flex-wrap: wrap-reverse
+			justify-content: center
+	.band__img
+		display: flex
+		align-items: center
+		margin: 0 -20px
+		@media(max-width: 991px)
+			margin: 0 -15px 15px
+		@media(max-width: 767px)
+			margin: 0 0 10px
+		img
+			margin: 0 20px
+			@media(max-width: 991px)
+				margin: 0 15px
+		.pixel
+			width: 183.74px
+			@media(max-width: 767px)
+				display: none
+		.screen
+			width: 163.32px
+			box-shadow: 0 8px 16px 0 rgba(34,50,84,.09), inset 0 0 0 1px rgba(112,123,140,.25)
+			@media(max-width: 767px)
+				display: none
+		.screens
+			max-width: 85%
+			margin: 0 auto
+			@media(min-width: 768px)
+				display: none
+
+.btn
+	background: $mainColor
+	border-radius: 0
+	color: #fff
+	font-weight: 700
+	display: inline-block
+	text-transform: uppercase
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25)
+	padding: 6px 20px
+	text-decoration: none
+	transition: all 100ms ease-in
+	border: 2px solid $mainColor
+	font-size: 14px
+	&:hover
+		background: #fff
+		color: $mainColor
+		box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25)
+		transform: translateY(-1px)
+	&:active
+		box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25)
+		transform: translateY(1px)

@@ -10,15 +10,22 @@ header
 		color: $black
 		font-weight: 700
 	nav
-		ul li
-			display: inline-block
-			a
-				display: block
-				padding: 0 16px
-				text-decoration: none
-				color: $black
-				transition: all 100ms ease-in
-				&:hover
-					color: $mainColor
-			&:last-of-type a
-				padding-right: 0
+		.menu__btn
+			font-size: 16px
+			@media(min-width: 768px)
+				display: none
+		ul
+			@media(max-width: 767px)
+				display: none 
+			li
+				display: inline-block
+				a
+					display: block
+					padding: 0 16px
+					text-decoration: none
+					color: $black
+					transition: all 100ms ease-in
+					&:hover
+						color: $mainColor
+				&:last-of-type a
+					padding-right: 0
