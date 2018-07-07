@@ -10,7 +10,7 @@
 	  <section class="band fucer left">
 	  	<div class="container">
 				<div class="band__text">
-					<h4 class="band__text--intro">Some Work</h4>
+					<h4 class="band__text--intro">Work</h4>
 					<h3 class="band__text--title">Fucer App</h3>
 					<p class="band__text--p">A big project I did with a team of 3 total, from product strategy all the way to web and mobile app.</p>
 					<nuxt-link to="/work" class="btn">View Project</nuxt-link>
@@ -26,7 +26,7 @@
     <section class="band about right">
     	<div class="container">
     		<div class="band__img">
-    			<img src="" alt="" class="about__pic--home">
+    			<img src="~/assets/images/imgermi.jpg" alt="" class="about__pic--home">
     		</div>
     		<div class="band__text">
     			<h4 class="band__text--intro">Some info</h4>

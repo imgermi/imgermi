@@ -14,7 +14,6 @@
 					    <span class="hamburger-inner"></span>
 					  </span>
 					</button> 
-					<li><nuxt-link to="/work">Work</nuxt-link></li>
 					<li><nuxt-link to="/about">About</nuxt-link></li>
 					<li><a href="https://medium.com/@imgermi/" target="_blank">Notes</a></li>
 					<li><nuxt-link to="/path">Designer's Path</nuxt-link></li>
