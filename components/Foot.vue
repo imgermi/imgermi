@@ -4,12 +4,12 @@
 			<h6 class="footer__title">Stay in touch</h6>
 			<nav class="footer__social">
 				<ul>
-					<li><a href="" target="_blank">Email</a></li>
-					<li><a href="" target="_blank">Twitter</a></li>
-					<li><a href="" target="_blank">Medium</a></li>
-					<li><a href="" target="_blank">Behance</a></li>
-					<li><a href="" target="_blank">LinkedIn</a></li>
-					<li><a href="" target="_blank">GitHub</a></li>
+					<li><a href="mailto:juanmartingermano@gmail.com" target="_blank">Email</a></li>
+					<li><a href="https://www.twitter.com/imgermi" target="_blank">Twitter</a></li>
+					<li><a href="https://www.medium.com/@imgermi" target="_blank">Medium</a></li>
+					<li><a href="https://www.behance.net/imgermi" target="_blank">Behance</a></li>
+					<li><a href="https://www.linkedin.com/in/imgermi/" target="_blank">LinkedIn</a></li>
+					<li><a href="https://www.github.com/imgermi/" target="_blank">GitHub</a></li>
 				</ul>
 			</nav>
 			<span>Juan Martín Germano - 2018</span>

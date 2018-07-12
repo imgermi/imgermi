@@ -1,8 +1,28 @@
 <template>
-  <section class="hero">
-    <div class="container">
-      <h1 class="hero__title">Designer's Path</h1>
-      <h2 class="hero__sub">Some books to become a better designer, thinker, and person.</h2>
-    </div>
-  </section>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1 class="hero__title">Designer's Path</h1>
+        <h2 class="hero__sub">I'm still building this page.</h2>
+      </div>
+    </section>
+  </main>
 </template>
+
+<script>
+  export default {
+    data () {
+      return {
+        title: 'Designer\'s Path'
+      }
+    },
+    head () {
+      return {
+        title: this.title,
+        meta: [
+          { hid: 'description', name: 'description', content: '' }
+        ]
+      }
+    }
+  }
+</script>

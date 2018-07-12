@@ -1,9 +1,9 @@
 <template>
-	<div>
+	<main>
 	  <section class="hero">
 	    <div class="container">
 	      <h1 class="hero__title">About me</h1>
-	      <h2 class="hero__sub">If you made it here, I appreciate your curiosity. Let me tell you a small story.</h2>
+	      <h2 class="hero__sub">If you made it here, I appreciate your curiosity. With that said, let me tell you a small story.</h2>
 	    </div>
 	  </section>
 	  <section class="band about left">
@@ -13,14 +13,14 @@
 	  			<p class="band__text--p">After that, all I did was trying to create websites. As much as I could. And I kept doing it until a good-old-friend of my dad asked me to do one for him. I thought 'there's nothing left to loose (mi favorite record ever)', so I did it. And that was the beginning of my getting-into-the-design-field journey.</p>
 	  		</div>
 	  		<div class="band__img">
-	  			<img src="~/assets/images/imgermi.jpg" alt="" class="about__pic--home">
+	  			<img src="~/assets/images/imgermi-screaming.jpg" alt="" class="about__pic--home">
 	  		</div>
 	  	</div>
 	  </section>
 	  <section class="band about right">
 	  	<div class="container">
 	  		<div class="band__img">
-	  			<img src="~/assets/images/imgermi.jpg" alt="" class="about__pic--home">
+	  			<img src="~/assets/images/imgermi-chill.jpg" alt="" class="about__pic--home">
 	  		</div>
 	  		<div class="band__text">
 	  			<p class="band__text--p">After getting some basic projects done, I sent my disgusting portfolio to about 73 companies around the city. Only one replied back, and guess what? One week, two interviews and a small project later, I was on my way to my first day at the office. That was the time I got my first job ever, and it was as a UI Developer. My task was receiving a super-damn-heavy .psd file with a 12 page website and coding it. From top to bottom. Responsive. Light. Fast. Usable.</p>
@@ -31,5 +31,23 @@
 	  		</div>
 	  	</div>
 	  </section>
-	 </div>
+	 </main>
 </template>
+
+<script>
+  export default {
+    data () {
+      return {
+        title: 'About'
+      }
+    },
+    head () {
+      return {
+        title: this.title,
+        meta: [
+          { hid: 'description', name: 'description', content: '' }
+        ]
+      }
+    }
+  }
+</script>

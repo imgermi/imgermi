@@ -13,7 +13,7 @@
 					<h4 class="band__text--intro">Work</h4>
 					<h3 class="band__text--title">Fucer App</h3>
 					<p class="band__text--p">A big project I did with a team of 3 total, from product strategy all the way to web and mobile app.</p>
-					<nuxt-link to="/work" class="btn">View Project</nuxt-link>
+					<nuxt-link to="/work/fucer-app" class="btn">View Project</nuxt-link>
 				</div>
 	  		<div class="band__img">
 	  			<img src="~/assets/images/fucer/pixel.png" class="pixel" alt="">
@@ -32,7 +32,7 @@
     			<h4 class="band__text--intro">Some info</h4>
     			<h3 class="band__text--title">I'm a person</h3>
     			<p class="band__text--p">My days are all about trying to come up with a solution that's not only usable but also strategically good and aligned with the business that needs to solve a problem. From content and words, all the way to visuals and overall experience</p>
-    			<nuxt-link to="/work" class="btn">About me</nuxt-link>
+    			<nuxt-link to="/about" class="btn">About me</nuxt-link>
     		</div>
     	</div>
     </section>
@@ -43,7 +43,7 @@
   				<h3 class="band__text--title">Writing as a 9 year old</h3>
   				<p class="band__text--p">Actually I try to do so, but it's damn difficult.</p>
   				<p class="band__text--p">You see, kids have this beautiful imagination that leads to an incredibly creative life. Do you remember closing your eyes, coming up with some sort of story or game in your head, open your eyes and suddenly start living that story or game in real life? That's imagination leading to creativity. That's coming up with something from nothing.</p>
-  				<nuxt-link to="/work" class="btn">View All</nuxt-link>
+  				<nuxt-link to="/notes" class="btn">View All</nuxt-link>
   			</div>
     		<div class="band__img">
     			<a class="post" href="">
@@ -66,9 +66,27 @@
     			<h4 class="band__text--intro">Some books</h4>
     			<h3 class="band__text--title">Designer's learning path</h3>
     			<p class="band__text--p">Despite the fact that I consider practicing and doing one of the best learning ways, reading is something unbeateble. The ammount of content and information you can absorb from good books is infinite. That's why I wanted to document my reading and learning journey.</p>
-    			<nuxt-link to="/work" class="btn">View more</nuxt-link>
+    			<nuxt-link to="/path" class="btn">View more</nuxt-link>
     		</div>
     	</div>
     </section>
   </main>
 </template>
+
+<script>
+  export default {
+    data () {
+      return {
+        title: 'Imgermi'
+      }
+    },
+    head () {
+      return {
+        title: this.title,
+        meta: [
+          { hid: 'description', name: 'description', content: '' }
+        ]
+      }
+    }
+  }
+</script>

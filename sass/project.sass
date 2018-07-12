@@ -1,0 +1,70 @@
+// main: main.sass
+
+.hero.project
+	.hero__sub
+		margin-bottom: 30px
+	img
+		display: block
+		width: 70%
+		margin: 40px auto 0
+		@media(max-width: 991px)
+			width: 90%
+		@media(max-width: 479px)
+			width: 100%
+
+.band.project
+	.project__container
+		display: block
+		max-width: 750px
+		@media(max-width: 991px)
+			max-width: 600px
+	p
+		margin-bottom: 15px
+		font-size: 18px
+		line-height: 28px
+		@media(max-width: 479px)
+			font-size: 16px
+			line-height: 24px
+
+.project__block
+	margin-bottom: 40px
+	a
+		color: $mainColor
+		transition: all 100ms ease-in
+		&:hover
+			color: $black
+	img
+		width: 100%
+
+.project__caption
+	display: block
+	text-align: center
+	margin: auto
+	width: 50%
+	line-height: 20px	
+	@media(max-width: 991px)
+		width: 80%
+	@media(max-width: 767px)
+		width: 90%
+	@media(max-width: 479px)
+		width: 100%
+
+.project__tasks
+	text-align: center
+	li
+		display: inline-block
+		vertical-align: top
+		padding: 3px 14px
+		border-radius: 200px
+		border: 1px solid $mainColor
+		color: $mainColor
+		margin: 7px
+
+.project__disclaimer
+	display: block
+	text-align: center
+	a
+		color: $mainColor
+		transition: all 100ms ease-in
+		&:hover
+			color: $black
