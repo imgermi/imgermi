@@ -20,7 +20,7 @@ module.exports = {
   ],
   plugins: [
     { src: '~plugins/ga.js', ssr: false }
-  ]
+  ],
   /*
   ** Customize the progress bar color
   */
