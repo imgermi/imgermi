@@ -16,17 +16,17 @@
 					<nuxt-link to="/work/fucer-app" class="btn">View Project</nuxt-link>
 				</div>
 	  		<div class="band__img">
-	  			<img src="~/assets/images/fucer/pixel.png" class="pixel" alt="">
-	  			<img src="~/assets/images/fucer/favoritas.png" class="screen" alt="">
-	  			<img src="~/assets/images/fucer/paso-2.png" class="screen" alt="">
-	  			<img src="~/assets/images/fucer/screens.png" class="screens" alt="">
+	  			<img src="~/assets/images/fucer/pixel.png" class="pixel" alt="Google Pixel phone frame - Case Study">
+	  			<img src="~/assets/images/fucer/favoritas.png" class="screen" alt="Google Pixel phone frame - Case Study">
+	  			<img src="~/assets/images/fucer/paso-2.png" class="screen" alt="Google Pixel phone frame - Case Study">
+	  			<img src="~/assets/images/fucer/screens.png" class="screens" alt="Google Pixel phone frame - Case Study">
 	  		</div>
 	  	</div>
 	  </section>
     <section class="band about right">
     	<div class="container">
     		<div class="band__img">
-    			<img src="~/assets/images/imgermi.jpg" alt="" class="about__pic--home">
+    			<img src="~/assets/images/imgermi.jpg" alt="Juan Martín Germano" class="about__pic--home">
     		</div>
     		<div class="band__text">
     			<h4 class="band__text--intro">Some info</h4>
@@ -45,22 +45,22 @@
   				<p class="band__text--p">You see, kids have this beautiful imagination that leads to an incredibly creative life. Do you remember closing your eyes, coming up with some sort of story or game in your head, open your eyes and suddenly start living that story or game in real life? That's imagination leading to creativity. That's coming up with something from nothing.</p>
   				<nuxt-link to="/notes" class="btn">View All</nuxt-link>
   			</div>
-    		<div class="band__img">
-    			<a class="post" href="">
-    				<h6 class="post__title">Learning by doing: acquiring skills when the situation demands it</h6>
-    				<small class="post__date">Mar 29 - 4 min read</small>
-    			</a>
-    			<a class="post" href="">
-    				<h6 class="post__title">Let the tools go: time to start focusing on solutions</h6>
-    				<small class="post__date">Apr 04 - 4 min read</small>
-    			</a>
-    		</div>
+        <div class="band__img">
+          <a class="post" href="https://medium.com/weland-agency/learning-by-doing-acquiring-skills-when-the-situation-demands-it-5f4f2cbc7bb0" target="_blank">
+            <h6 class="post__title">Learning by doing: acquiring skills when the situation demands it</h6>
+            <small class="post__date">Mar 29 - 4 min read</small>
+          </a>
+          <a class="post" href="https://medium.com/@imgermi/fuck-the-tools-time-to-start-focusing-on-solutions-cbd955030d7e" target="_blank">
+            <h6 class="post__title">Let the tools go: time to start focusing on solutions</h6>
+            <small class="post__date">Apr 04 - 4 min read</small>
+          </a>
+        </div>
     	</div>
     </section>
     <section class="band books right">
     	<div class="container">
     		<div class="band__img">
-    			<img src="~/assets/images/book-covers.png" alt="">
+    			<img src="~/assets/images/book-covers.png" alt="Designer's Path - Books">
     		</div>
     		<div class="band__text">
     			<h4 class="band__text--intro">Some books</h4>
@@ -84,7 +84,7 @@
       return {
         title: this.title,
         meta: [
-          { hid: 'description', name: 'description', content: '' }
+          { hid: 'description', name: 'description', content: 'A person that works as a designer, writes articles as a 9 year old kid, and tries to read a lot to get better every day.' }
         ]
       }
     }

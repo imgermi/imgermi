@@ -7,7 +7,8 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Germi Portfolio' }
+      { hid: 'description', name: 'description', content: 'Germi Portfolio' },
+      { name: 'google-site-verification', content: 'nIZHKw4qeDLe6fDDzkdCgyZ5pclkp-U45xqq-6LumMA' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

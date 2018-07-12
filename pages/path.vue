@@ -20,7 +20,7 @@
       return {
         title: this.title,
         meta: [
-          { hid: 'description', name: 'description', content: '' }
+          { hid: 'description', name: 'description', content: 'Documenting the learning journey of a designer since a career beginning, through every book and resource that made a big impact.' }
         ]
       }
     }

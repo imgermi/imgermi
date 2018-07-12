@@ -34,7 +34,7 @@
       return {
         title: this.title,
         meta: [
-          { hid: 'description', name: 'description', content: '' }
+          { hid: 'description', name: 'description', content: 'After having a long client meeting that went terrible, I decided to write all of my thoughts on a sheet of paper. After 25 minutes, I realised I wanted to start documenting every single thing I do as a designer.' }
         ]
       }
     }

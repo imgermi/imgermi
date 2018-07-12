@@ -94,7 +94,7 @@
       return {
         title: this.title,
         meta: [
-          { hid: 'description', name: 'description', content: '' }
+          { hid: 'description', name: 'description', content: 'A case study on a mobile and app design, from product thinking all the way to shipping and working on a marketing strategy.' }
         ]
       }
     }
