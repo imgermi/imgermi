@@ -18,6 +18,9 @@ module.exports = {
   css: [
     '~/sass/main.sass'
   ],
+  plugins: [
+    { src: '~plugins/ga.js', ssr: false }
+  ]
   /*
   ** Customize the progress bar color
   */
