@@ -50,7 +50,7 @@
 			<div class="project__container container">
 				<article class="project__block">
 					<h3 class="band__text--title">The final solution</h3>
-					<p>After that 'small' issue we had, which delayed the project for months, learning from our mistakes, we made things all over again. This time, understanding that we weren't asking enough questions and presenting enough work in progress to the client, we priorited the sign up flow.</p>
+					<p>After that 'small' issue we had, which delayed the project for months, learning from our mistakes, we made things all over again. This time, understanding that we weren't asking enough questions and presenting enough work in progress to the client, we prioritized the sign up flow.</p>
 					<p>Before touching any single line of code, I made a quick Zoom call with the client and presented this 8 screens, straightly as a Figma prototype, going screen by screen. Again, some changes emerged, but in a very positive way. The prototype was perfect for debating the flow and coming up with ideas and solutions as a group. After that 20 minute call (yay, fast!), things were very clear.</p>
 				</article>
 			</div>
@@ -75,7 +75,7 @@
 			<div class="project__container container">
 				<article class="project__block">
 					<h3 class="band__text--title">Things I learned</h3>
-					<p>In addition to working on a whole mobile app which forced me to get better at UX Design, the project taught me a lot about product strategy and client communication in general. One of the main things that I'm thankful for, is realising that this 6-month-approach can't happen anymore (despite the fact that every other project I made, was done exactly like this). That's exactly why I'm constanly working on <nuxt-link to="path">the Designer's Path</nuxt-link>, reading books like 'Sprint' and 'Hacking Growth' and trying to incorporate every approach I can on my daily work.</p>
+					<p>In addition to working on a whole mobile app which forced me to get better at UX Design, the project taught me a lot about product strategy and client communication in general. One of the main things that I'm thankful for, is realising that this 6-month-approach can't happen anymore (despite the fact that every other project I made, was done exactly like this). That's exactly why I'm constanly working on <nuxt-link to="../path">the Designer's Path</nuxt-link>, reading books like 'Sprint' and 'Hacking Growth' and trying to incorporate every approach I can on my daily work.</p>
 				</article>
 				<span class="project__disclaimer">You can check out other projects I've done on <a href="https://behance.net/imgermi" target="_blank">my Behance page</a>.</span>
 			</div>

@@ -10,7 +10,7 @@
 	  	<div class="container">
 	  		<div class="band__text">
 	  			<p class="band__text--p">I started making shitty websites with basic HTML and unreadable CSS in 2016. As soon as I saved that .html file and opened it on the browser, my life changed forever. I became obsessed with the web. I couldn't believe I could create something out of a damn plain-text file, and make it look the way I want.</p>
-	  			<p class="band__text--p">After that, all I did was trying to create websites. As much as I could. And I kept doing it until a good-old-friend of my dad asked me to do one for him. I thought 'there's nothing left to loose (mi favorite record ever)', so I did it. And that was the beginning of my getting-into-the-design-field journey.</p>
+	  			<p class="band__text--p">After that, all I did was trying to create websites. As much as I could. And I kept doing it until a good-old-friend of my dad asked me to do one for him. I thought "there's nothing left to loose (my favorite record ever)", so I did it. And that was the beginning of my getting-into-the-design-field journey.</p>
 	  		</div>
 	  		<div class="band__img">
 	  			<img src="~/assets/images/imgermi-screaming.jpg" alt="Juan Martín Germano - Profile photo" class="about__pic--home">
