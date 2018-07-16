@@ -36,10 +36,6 @@
 		  },
 		  closeMenu: function (event) {
 		    this.menuActive = false
-		  },
-		  async logout () {
-		  	await this.$auth.logout()
-		  	this.$router.push("/")
 		  }
 		}
 	};
