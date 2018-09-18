@@ -77,9 +77,28 @@
 					<h3 class="band__text--title">Things I learned</h3>
 					<p>In addition to working on a whole mobile app which forced me to get better at UX Design, the project taught me a lot about product strategy and client communication in general. One of the main things that I'm thankful for, is realising that this 6-month-approach can't happen anymore (despite the fact that every other project I made, was done exactly like this). That's exactly why I'm constanly working on <nuxt-link to="../path">the Designer's Path</nuxt-link>, reading books like 'Sprint' and 'Hacking Growth' and trying to incorporate every approach I can on my daily work.</p>
 				</article>
-				<span class="project__disclaimer">You can check out other projects I've done on <a href="https://behance.net/imgermi" target="_blank">my Behance page</a>.</span>
 			</div>
 		</section>
+    <section class="work-list">
+			<h3 class="band__text--title work-list-title">Other projects I've worked on</h3>
+      <div class="container">
+        <a href="https://dribbble.com/shots/5104123-Vendexa-launched-Online-store" target="_blank" class="work-link">
+          <img src="~/assets/images/dribbble/vendexa.jpg" alt="">
+          <h4 class="band__text--intro">Online Store</h4>
+					<h3 class="band__text--title">Vendexa</h3>
+        </a>
+        <a href="https://dribbble.com/shots/5087734-Diphot-Home-Page" target="_blank" class="work-link">
+          <img src="~/assets/images/dribbble/diphot.jpg" alt="">
+          <h4 class="band__text--intro">Company website</h4>
+					<h3 class="band__text--title">Diphot</h3>
+        </a>     
+        <a href="https://dribbble.com/shots/4927239-Online-course-landing-page" target="_blank" class="work-link">
+          <img src="~/assets/images/dribbble/standupweb.jpg" alt="">
+          <h4 class="band__text--intro">Online Course</h4>
+					<h3 class="band__text--title">StandUpWeb</h3>
+        </a>   
+      </div>
+    </section>
 	</main>
 </template>
 

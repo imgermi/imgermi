@@ -6,7 +6,7 @@
         <h2 class="hero__sub">I'm still building this page, but in the meantime, you can check some articles I published on Medium.</h2>
       </div>
     </section>
-    <section class="band notes left">
+    <section class="band notes left list">
       <div class="container">
         <div class="band__img">
           <a class="post" href="https://medium.com/weland-agency/learning-by-doing-acquiring-skills-when-the-situation-demands-it-5f4f2cbc7bb0" target="_blank">
